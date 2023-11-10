@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+  background: #e3eaeb;
+}
+
+.content-box {
+  background: #66a4ec;
+  color: white;
+}
+
+h1 {
+  color: #66a4ec;
+}
+
+/* Select style here */
+
+select {
+  color: #66a4ec;
+  cursor: pointer;
+  background: url(http://sharpik.com/wip/cuteselect/arrow.png) 295px 12px
+    no-repeat white;
+}
+
+select:hover {
+  background: transparent;
+  border: none;
+  box-shadow: 3px 3px 2px 2px rgba(69, 69, 70, 0.5);
+  color: white;
+}
+
+.choice {
+  background-color: white;
+  color: #66a4ec;
+  cursor: pointer;
+}
+
+.result {
+  background-color: white;
+  color: #66a4ec;
+}
